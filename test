@@ -1,0 +1,29 @@
+// greatest common divisor
+
+first := 11;
+second := 22;
+while first != second do
+   if first > second then first := first-second
+   else second := second-first
+   fi
+od;
+print first + second;
+third := 33;
+forth := 31;
+print third + forth + first + second;
+last := 1;
+print last;
+
+x := 10;
+y := 20;
+print x;
+if x < y then x := y fi;
+print x;
+
+x := 1;
+
+while x != 10 do 
+    print x;
+    x := x+1
+od
+
